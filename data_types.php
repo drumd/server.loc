@@ -21,3 +21,4 @@ $number="int or fl";
 echo $number;
 $callback="call";
 echo $callback;
+var_dump ($boolean);

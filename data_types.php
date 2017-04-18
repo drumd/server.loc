@@ -1,24 +1,12 @@
 <?php
-$boolean=true;
-echo $boolean;
-$integer="123";
-echo $integer;
-$float="double";
-echo $float;
-$string="stg";
-echo $string;
-$array="index";
-echo $array;
-$object="oop";
-echo $object;
-$resource="url";
-echo $resource;
-$null="0";
-echo $null;
-$mixed="all types";
-echo $mixed;
-$number="int or fl";
-echo $number;
-$callback="call";
-echo $callback;
-var_dump ($boolean);
+$true=boolean;
+$int=integer;
+$double=float;
+$string="string";
+$array=array();
+$oop=object();
+$url=resource();
+$null=null;
+
+
+var_dump ($true,$int,$double,$string,$array,$oop,$url,$null);

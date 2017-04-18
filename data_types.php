@@ -1,5 +1,5 @@
 <?php
-$boolean="true";
+$boolean=true;
 echo $boolean;
 $integer="123";
 echo $integer;
@@ -21,5 +21,3 @@ $number="int or fl";
 echo $number;
 $callback="call";
 echo $callback;
-
-echo var_dump($boolean);

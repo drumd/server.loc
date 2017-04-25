@@ -1,7 +1,7 @@
 <?php
-$a="hello 1";
-$b="hello 2";
-$c="hello 3";
-$d="hello 4";
-$e="hello 5";
+$a="123";
+$b=123;
+$c=123.5;
+$d=true;false;null;
+$e="true;false;null";
 echo var_dump($a,$b,$c,$d,$e);

@@ -1,12 +1,61 @@
 <?php
-$true=boolean;
-$int=integer;
-$double=float;
+$true=true;
+$int=123;
+$double=123.4;
 $string="string";
 $array=array();
-$oop=object();
-$url=resource();
+$oop=456;
+$url=234;
 $null=null;
-
+echo "<h1>переменные</h1>";
 
 var_dump ($true,$int,$double,$string,$array,$oop,$url,$null);
+echo "<br/>переменная true=$true";
+echo '<br/>переменная true=$true';
+echo "<br/>переменная int=$int";
+echo "<br/>переменная double=$double";
+echo "<br/>переменная string=$string";
+$int=321;
+echo "<br/>переменная int=$int";
+echo "<br/>";
+echo "<h1>константы</h1>";
+echo PHP_VERSION;
+define("PI",3.14);
+echo "<br/>";
+echo PI;
+echo "<br/>";
+echo defined("PI");echo "<br/>";
+echo "<h1>арифметические операции</h1>";
+$x=32;
+$y=22.13;
+$summ=$x+$y;
+$diff=$x-$y;
+$mult=$x*$y;
+$dil=$x/$y;
+echo "<br/>сумма из $x и $y = $summ";
+echo "<br/>разница из $x и $y = $diff";
+echo "<br/>умножение из $x и $y = $mult";
+echo "<br/>деление из $x и $y = $dil";
+echo "<br/>";
+echo "<h1>остаток при делении</h1>";
+echo "<br/>";
+$z=12;
+$ostatok=$x%$z;
+echo "остаток при делении из $x и $z = $ostatok";
+
+$q=400;
+$q=$q+10;
+$q+=10;
+$q-=10;
+$q/=10;
+$q++;
+echo $q;
+echo "<br/>";
+echo "<h1>строковые операции</h1>;
+    $str_1="<b>Первая строка<\b>"<input type=\"text\"/>";
+    $str_2="<i>Вторая строка</i>";
+
+echo "<br/>$str_1";
+echo "<br/>$str_2";
+echo "<br/>";
+echo $str_1." ".$str_2.' " '." \" \\ ". ' \'  ';

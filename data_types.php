@@ -52,7 +52,7 @@ $q++;
 echo $q;
 echo "<br/>";
 echo "<h1>строковые операции</h1>;
-    $str_1="<b>Первая строка<\b>"<input type=\"text\"/>";
+    $str_1="<b>Первая строка<\b>;<input type=\"text\"/>";
     $str_2="<i>Вторая строка</i>";
 
 echo "<br/>$str_1";
